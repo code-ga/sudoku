@@ -1,11 +1,8 @@
-# React + TypeScript + Vite
+# Sudoku (React + TypeScript + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the sudoku game with the traditional ui and have the multiple solution so this is real easy
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently, have the one random mode available 
 
 ## Expanding the ESLint configuration
 
@@ -48,3 +45,6 @@ export default tseslint.config({
   },
 })
 ```
+
+# Recommend
+- using vercel for easy hosting (not sponsors)

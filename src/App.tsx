@@ -47,7 +47,7 @@ function App() {
       }, 2000);
       return;
     }
-    const isValid = validatePlacement([...questionTable], i, j, Number(value));
+    const isValid = validatePlacement(inputValues.map((row) => [...row]), i, j, Number(value));
     if (!isValid) {
       setInvalidBoxes((old) => [...old, { i, j }]);
     } else {
@@ -115,7 +115,7 @@ function App() {
           <tr></tr>
         </thead>
         <tbody>
-          {questionTable.slice().map((row, i) => (
+          {questionTable.map((row) => [...row]).map((row, i) => (
             <tr key={i}>
               {row.map((_, j) => (
                 <td
