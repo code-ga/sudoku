@@ -96,10 +96,10 @@ function App() {
       <Modal onClose={() => setHelpModal(false)} open={helpModal}>
         <h2 style={{ color: "green", textAlign: "center" }}>How to play</h2>
         <p style={{ textAlign: "center" }}>
-          Enter the number in the cell to make the sum of each row equal to the
-          sum of that row (correct sum is in the right of that row) and the sum
-          of each column equal to the sum of that column (correct sum is in the
-          top of that column)
+          Basic Sudoku Rules The goal is to fill a 9x9 grid with digits so that
+          each column, each row, and each of the nine 3x3 subgrids (called
+          "boxes" or "regions") contain all of the digits from 1 to 9 exactly
+          once.
         </p>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <button
