@@ -1,0 +1,16 @@
+.question-input {
+  border: 0.5rem solid #ccc;
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  width: 50px;
+}
+
+.question-input.correct {
+  border-color: green;
+}
+
+.question-input.wrong {
+  border-color: red;
+}
